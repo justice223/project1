@@ -37,3 +37,22 @@
 //	enum sex ch = MALE;
 //	printf("=%c\n",ch);
 //}
+
+#include <stdio.h>
+//int main()
+//{
+//	char arr1[] = "abc";//"abc"--'a','b','c','\0--'\0'字符串的结束标志
+//	char arr2[] = { 'a','b','c',0};
+//	printf("%s\n",arr1);
+//	printf("%s\n",arr2);
+//	return 0;
+//}
+
+int main()
+{
+	printf("%c\n",'\32');// \ddd--ddd表示1~3个八进制的数字，表示一个字符
+	printf("%c\n", '\x30');// \xdd--dd表示2个十六进制数字
+	return 0;
+}
+
+
