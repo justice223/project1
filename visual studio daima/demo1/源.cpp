@@ -24,6 +24,26 @@
 //	return 0;
 //}
 
+
+//#include <stdio.h>
+//int add(int x, int y)
+//{
+//	int z = x + y;
+//	return z;
+//}
+//int main()
+//{
+//	int x = 10;
+//	int y = 20;
+//	int sum = 0;
+//	sum = add(x, y);
+//	printf("%d\n", sum);
+//	return 0;
+//}
+
+
+
+
 //#include <stdio.h>
 //enum sex
 //{
@@ -38,7 +58,7 @@
 //	printf("=%c\n",ch);
 //}
 
-#include <stdio.h>
+//#include <stdio.h>
 //int main()
 //{
 //	char arr1[] = "abc";//"abc"--'a','b','c','\0--'\0'字符串的结束标志
@@ -48,11 +68,24 @@
 //	return 0;
 //}
 
-int main()
-{
-	printf("%c\n",'\32');// \ddd--ddd表示1~3个八进制的数字，表示一个字符
-	printf("%c\n", '\x30');// \xdd--dd表示2个十六进制数字
-	return 0;
-}
+//int main()
+//{
+//	printf("%c\n",'\32');// \ddd--ddd表示1~3个八进制的数字，表示一个字符
+//	printf("%c\n", '\x30');// \xdd--dd表示2个十六进制数字
+//	return 0;
+//}
 
 
+//int main()
+//{
+//	int line = 0;
+//	printf("加入比特\n");
+//	while (line<2000)
+//	{
+//		printf("敲一行代码:%d\n",line);
+//		line++;
+//	}
+//	if (line>=2000);
+//	printf("好offer\n");
+//	return 0;
+//}
